@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwashbuckleExample</name>
+    </assembly>
+    <members>
+        <member name="T:SwashbuckleExample.Attributes.ValidateModelStateAttribute">
+            <summary>
+            Model state validation attribute
+            </summary>
+        </member>
+        <member name="M:SwashbuckleExample.Attributes.ValidateModelStateAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            Called before the action method is invoked
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:SwashbuckleExample.Controllers.InventoryController.SearchInventory(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            searches inventory
+            </summary>
+            <param name="searchString">pass an optional search string for looking up inventory</param>
+            <param name="skip"></param>
+            <param name="limit"></param>
+        </member>
+        <member name="T:SwashbuckleExample.Models.InventoryItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SwashbuckleExample.Models.InventoryItem.Id">
+            <summary>
+            Gets or Sets Id
+            </summary>
+            <example>d290f1ee-6c54-4b01-90e6-d701748f0851</example>
+        </member>
+        <member name="P:SwashbuckleExample.Models.InventoryItem.Name">
+            <summary>
+            Gets or Sets Name
+            </summary>
+            <example>Widget Adapter</example>
+        </member>
+        <member name="P:SwashbuckleExample.Models.InventoryItem.ReleaseDate">
+            <summary>
+            Gets or Sets ReleaseDate
+            </summary>
+            <example>2016-08-29T09:12:33.001Z</example>
+        </member>
+        <member name="P:SwashbuckleExample.Models.InventoryItem.Manufacturer">
+            <summary>
+            Gets or Sets Manufacturer
+            </summary>
+        </member>
+        <member name="M:SwashbuckleExample.Models.InventoryItem.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.InventoryItem.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.InventoryItem.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.InventoryItem.Equals(SwashbuckleExample.Models.InventoryItem)">
+            <summary>
+            Returns true if InventoryItem instances are equal
+            </summary>
+            <param name="other">Instance of InventoryItem to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.InventoryItem.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+        <member name="T:SwashbuckleExample.Models.Manufacturer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SwashbuckleExample.Models.Manufacturer.Name">
+            <summary>
+            Gets or Sets Name
+            </summary>
+            <example>ACME Corporation</example>
+        </member>
+        <member name="P:SwashbuckleExample.Models.Manufacturer.HomePage">
+            <summary>
+            Gets or Sets HomePage
+            </summary>
+            <example>https://www.acme-corp.com</example>
+        </member>
+        <member name="P:SwashbuckleExample.Models.Manufacturer.Phone">
+            <summary>
+            Gets or Sets Phone
+            </summary>
+            <example>408-867-1234</example>
+        </member>
+        <member name="M:SwashbuckleExample.Models.Manufacturer.ToString">
+            <summary>
+            Returns the string presentation of the object
+            </summary>
+            <returns>String presentation of the object</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.Manufacturer.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object
+            </summary>
+            <returns>JSON string presentation of the object</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.Manufacturer.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal
+            </summary>
+            <param name="obj">Object to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.Manufacturer.Equals(SwashbuckleExample.Models.Manufacturer)">
+            <summary>
+            Returns true if Manufacturer instances are equal
+            </summary>
+            <param name="other">Instance of Manufacturer to be compared</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:SwashbuckleExample.Models.Manufacturer.GetHashCode">
+            <summary>
+            Gets the hash code
+            </summary>
+            <returns>Hash code</returns>
+        </member>
+    </members>
+</doc>
